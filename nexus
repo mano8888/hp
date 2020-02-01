@@ -1,0 +1,9 @@
+deploy:deploy-file
+
+-DgroupId=com.hplap
+-DartifactId=hplap
+-Dversion=1.0-SNAPSHOT
+-Dpackage=war
+-DinteractiveMode=false
+-Drepository=nexus
+-Durl=https://nexus-db/mano8888/mano8888
